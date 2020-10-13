@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.color-primary {
+  background-color: #022B3A;
+}
+
+.bg-secondary {
+  background-color: #FFFFFF !important;
+}
+
+.bg-third {
+  background-color: #DAD2C7;
+}
+
+.text-primary {
+  color: #022B3A !important;
+}
+
+.text-secondary {
+  color: #DAD2C7 !important;
+}
+
+.text-third {
+  color: #3A606E;
+}
+
+.fa {
+  color: #DAD2C7;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.navigation {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.cover {
+  background: url("res/2656x1494.jpg") no-repeat center center/cover;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-picture {
+  width: 100%;
+  height: auto;
+}
+
+.about-me {
+  align-items: center;
+}
+
+.skills {
+  justify-content: space-evenly;
+}
+
+.title-bottom {
+  z-index: 2;
+  margin-bottom: -0.6em;
+}
+
+.title-top {
+  margin-top: -0.6em;
+}
+
+/*# sourceMappingURL=CV.css.map */

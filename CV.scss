@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+$dark-blue: #022B3A;
+$grey-blue: #3A606E;
+$light-grey: #DAD2C7;
+$white: #FFFFFF;
+$ruby-red: #A31621;
+
+$montserrat: 'Montserrat', sans-serif;
+//$raleway: 'Raleway', sans-serif;
+
+
+body{
+    font-family: $montserrat;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.color-primary{
+    background-color: $dark-blue;
+}
+
+.color-secondary{
+    background-color: $white;
+}
+
+.bg-third{
+    background-color: $light-grey;
+}
+
+.text-primary{
+    color: $dark-blue!important;
+}
+
+.text-secondary{
+    color: $light-grey!important;
+}
+
+.text-third{
+    color: $grey-blue;
+}
+
+.fa{
+    color: $light-grey;
+}
+
+.text-white{
+    color: $white;
+}
+
+.navigation{
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.cover{
+    background: url("res/2656x1494.jpg") no-repeat center center / cover;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile-picture{
+    width: 90%;
+    height: auto;
+}
+
+.about-me{
+    align-items: center;
+}
+
+.skills{
+    justify-content: space-evenly;
+}
+
+.title-bottom{
+    z-index: 2;
+    margin-bottom: -0.6em;
+}
+
+.title-top{
+    margin-top: -0.6em;
+}
